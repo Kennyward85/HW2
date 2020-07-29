@@ -1,105 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
 
-  <link rel="stylesheet" type="text/css" href="mobile.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenneth Portfolio</title>
+
+  <!-- CSS -->
+
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <title>
-
-  </title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="bootstrap.min.css">
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
 </head>
 
-<body> 
-
-
-
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="index.html">Kenneth Wardlow</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-
-        <li class="nav-item">
+-
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
           <a class="nav-link" href="index.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
+          <a class="nav-link" href="contact.html">Contact <class class="sr-only">(current)</class></a> </li> </ul> </div></nav>
+                </nav>             
+        <br><br><br>
+              <!--Content-->
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8" id="content">
+                    <div class="page-header">
+                      <h1>Contact</h1>
+                    </div>
 
-      </span>
-    </div>
-  </nav>
-
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-lg-7 col-md-8 col-sm-12">
-        <br />
-        <div class="card" style="padding-bottom: 80px;">
-          <div class="card card-header">
-            <h1>Contact Me</h1>
-          </div>
-
-          <div class="card card-body" style="background-color: lightgrey;">
-            <form>
-              <div class="form-group">
-                <label for="email">Name:</label>
-                <input type="email" class="form-control" id="email">
-              </div>
-              <div class="form-group">
-                <label for="pwd">Email:</label>
-                <input type="text" class="form-control" id="pwd">
-              </div>
-
-              <div class="form-group">
-                <label for="Message">Message:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-              </div>
-              <button type="submit" class="btn btn-secondary">Submit</button>
-            </form>
-
-
-          </div>
-        </div>
-
-
-        </row>
-
-      </div>
-
-
-      <br><br><br><br>
-      <nav class="navbar fixed-bottom navbar-dark bg-dark" style="color: #eee;">
-
-        <p>&copy; Wardlow Services, LLC.</p>
-
-      </nav>
-    </div>
-
-
-
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col-md-12">
+                          <label for="exampleInputEmail1">Name</label>
+                          <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                        </div><br>
+                        <div class="form-group col-md-12">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div><br>
+                        <div class="form-group col-md-12">
+                          <label for="exampleInputEmail1">Message</label>
+                          <textarea class="form-control" rows="5"></textarea>
+                        </div> <br>
+                      </div>
+                        <div style="text-align:center">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+<br><br>
+                      </div>
+                      <div class="col-md-4" id="panel">
+                        <div class="panel panel-default">
+                          <div class="panel-heading" style="text-align:center">
+                            <h3 class="panel-title">Contact Me</h3>
+                          </div>
+                          <div class="panel-body" style="text-align:center">
+                            <a href="https://github.com/kennyward85" target="_blank">
+                              <img src="images/github.png" class="social" alt="GitHub"
+                                style="width:50px;height:50px">
+                            </a>
+                            <br><br><br>
+                            <a href="https://www.linkedin.com/in/kenneth-wardlow-950ba11a8/" target="_blank">
+                              <img src="images/linkedin.png" class="social" alt="LinkedIn"
+                                style="width:50px;height:50px">
+                            </a>
+                            <br><br><br>
+                            <a href="C:\Users\Kenneth\Desktop\updated portfolio\Kenneth Wardlow Resume.pdf" download = "Kenneth-Wardlow-Resume" target="_blank">
+                              <img src="images/resume.png" class="social" alt="Resume"
+                                style="width:50px;height:50px"><p>Resume</p>
+                                </a>
+                                <br><br>
+                                <h6>E-mail:</h6>
+                                <a href="kenneth@wardlowservices.com" target = "_blank">
+                                <h6> kenneth@wardlowservices.com</h6>
+                                </a>
+                                <h6>Phone:</h6>
+                                <h6>979-292-4562</h6>
+                            
+                            <br><br><br>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Footer -->
+                  <nav class="navbar navbar-default  navbar-fixed-bottom" role="navigation">
+                    <div class="container text-center">
+                      <p class="navbar-text col-md-12 col-sm-12 col-xs-12">&copy; Copyright 2020 Kenneth Wardlow</p>
+                    </div>
+                  </nav>
 </body>
-
 </html>
