@@ -12,8 +12,7 @@ The link to my e-mail works as well allowing it to open theie chosen e-mail serv
 # Links
 https://github.com/Kennyward85/Portfolio-Page
 
-https://kennyward85.github.io/Portfolio-Page/
-
+https://www.wardlowservices.com
 
 ## Picture of Main Page
 
